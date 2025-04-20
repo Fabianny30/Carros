@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoImport Perú - Importadora de Autos de Marca</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-danger text-white text-center py-4">
+        <h1>AutoImport Perú</h1>
+        <p class="lead">Tu importadora de autos de marca en Perú</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-dark fw-bold" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#autos">Autos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">¿Quiénes Somos?</h2>
+            <p class="text-center">AutoImport Perú es una empresa especializada en la importación de vehículos de las mejores marcas del mundo. Brindamos garantía, asesoría y un servicio personalizado para ayudarte a elegir el auto ideal.</p>
+        </div>
+    </section>
+
+    <!-- Sección Autos -->
+    <section id="autos" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Nuestros Autos</h2>
+            <div class="row g-4">
+                <!-- Auto 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Toyota">
+                        <div class="card-body">
+                            <h5 class="card-title">Toyota Corolla 2023</h5>
+                            <p class="card-text">Confiabilidad japonesa, ideal para ciudad y carretera. Desde $22,000.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Auto 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="BMW">
+                        <div class="card-body">
+                            <h5 class="card-title">BMW Serie 3</h5>
+                            <p class="card-text">Lujo y potencia alemana. Desde $35,000.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Auto 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/600x400" class="card-img-top" alt="Hyundai">
+                        <div class="card-body">
+                            <h5 class="card-title">Hyundai Tucson</h5>
+                            <p class="card-text">SUV moderna, equipada con lo último en tecnología. Desde $27,000.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-center">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>📍 Dirección:</strong> Av. Javier Prado Este 1234, San Isidro, Lima</p>
+                    <p><strong>📞 Teléfono:</strong> +51 987 654 321</p>
+                    <p><strong>✉️ Email:</strong> contacto@autoimportperu.com</p>
+                </div>
+                <div class="col-md-6">
+                    <!-- Formulario de contacto -->
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="correo" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 AutoImport Perú. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
